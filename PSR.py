@@ -26,10 +26,11 @@ diff = ['0.71', '0.69', '0.48', '0.10', '0.50', '0.40', '0.39', '0.26', '0.32', 
         '0.40', '0.42']
 y = list(map(list, zip(trans, diff)))
 
+
 # calculation
 
+directory = "D:\PSR_Final\july" # directory for the output files, can also be set to same geodatabase
 
-directory = "D:\PSR_Final\july"
 j = 0 # counter for output
 for i in range(len(y)):
     PointsSolarRadiation("aoi_reprojected.tif",
